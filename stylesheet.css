@@ -1,0 +1,52 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	color: white;
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#welcome {
+	text-align: center;
+	margin: auto;
+	padding: 100px;
+/*	padding-bottom: 30px;
+*/}
+
+#welcome h1 {
+	font-size: 50px;
+}
+
+#welcome p {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#start {
+	text-align: center;
+	font-size: 28px;
+	font-style: normal;
+	color: gray;
+}
+
+#launchers {
+	width:60%;
+	height:110px;
+	text-align: center;
+	border-radius: 20px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 10px;
+}
+
+#launchers img {
+	width: 90px;
+	height: 90px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/*#search {
+	color: red;
+	border: 10%;
+}
+*/
