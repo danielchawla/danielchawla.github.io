@@ -1,6 +1,7 @@
 body {
 	background-image: url(background.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 	color: white;
 	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
@@ -9,8 +10,8 @@ body {
 	text-align: center;
 	margin: auto;
 	padding: 100px;
-/*	padding-bottom: 30px;
-*/}
+	padding-bottom: 170px;
+}
 
 #welcome h1 {
 	font-size: 50px;
@@ -29,8 +30,8 @@ body {
 }
 
 #launchers {
-	width:60%;
-	height:110px;
+	width:67%;
+	height:20%;
 	text-align: center;
 	border-radius: 20px;
 	margin: auto;
@@ -39,14 +40,30 @@ body {
 }
 
 #launchers img {
+	position: inline-block;
 	width: 90px;
 	height: 90px;
 	padding: 10px;
 	border-radius: 20px;
 }
 
-/*#search {
-	color: red;
-	border: 10%;
+@media screen and (max-width: 1035px) {
+    #launchers {
+        width:80%;
+    }
 }
-*/
+
+@media screen and (max-width: 1035px) {
+    #launchers {
+        width:80%;
+    }
+
+    #welcome {
+		text-align: center;
+		margin: auto;
+		padding: 80px;
+		padding-bottom: 130px;
+	}
+
+}
+
