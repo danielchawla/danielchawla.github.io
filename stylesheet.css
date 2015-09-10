@@ -1,16 +1,18 @@
 body {
-	background-image: url(background.jpg);
+	background-image: url(images/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
 	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+/* Welcome Bar Styling */
+
 #welcome {
 	text-align: center;
 	margin: auto;
 	padding: 100px;
-	padding-bottom: 170px;
+	padding-bottom: 140px;
 }
 
 #welcome h1 {
@@ -22,20 +24,52 @@ body {
 	font-style: italic;
 }
 
-#start {
+#search {
 	text-align: center;
-	font-size: 28px;
+	font-size: 20px;
+	margin: 30px;
+	padding: 0px;
 	font-style: normal;
-	color: gray;
+	color: white;
 }
 
+/* Search Bar Styling */
+
+#search {
+	height: 25px;
+	border-radius: 3px;
+	padding-bottom: 30px;
+}
+
+#search input {
+	border-radius: 3px;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.73);
+}
+
+#search input:focus{
+    outline-color: gray;
+}
+
+#search #button {
+	background-color: #f2f2f2;
+	border: #f2f2f2 1px solid;
+}
+
+#search #button:hover {
+	color: black;
+	border: 2px black;
+}
+
+/* Shortcut Launcher Styling */
+
 #launchers {
-	width:67%;
+	width:788px;
 	height:20%;
 	text-align: center;
 	border-radius: 20px;
 	margin: auto;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.65);
 	padding: 10px;
 }
 
@@ -47,23 +81,22 @@ body {
 	border-radius: 20px;
 }
 
-@media screen and (max-width: 1035px) {
-    #launchers {
-        width:80%;
-    }
-}
+/* Optimization for smaller screens */
 
 @media screen and (max-width: 1035px) {
     #launchers {
         width:80%;
     }
-
     #welcome {
 		text-align: center;
 		margin: auto;
-		padding: 80px;
-		padding-bottom: 130px;
+		padding-bottom: 90px;
 	}
 
+	#search {
+	height: 25px;
+	border-radius: 3px;
+	padding-bottom: 20px;
+}
 }
 
