@@ -12,36 +12,36 @@ body {
 	text-align: center;
 	margin: auto;
 	padding: 100px;
-	padding-bottom: 140px;
+	padding-bottom: 120px;
 }
 
 #welcome h1 {
-	font-size: 50px;
+	font-size: 105px;
+	padding-bottom: 0px;
+	margin-bottom: 18px;
 }
 
 #welcome p {
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 }
 
 #search {
 	text-align: center;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	margin: 30px;
 	padding: 0px;
 	font-style: normal;
 	color: white;
-}
-
-/* Search Bar Styling */
-
-#search {
 	height: 25px;
 	border-radius: 3px;
 	padding-bottom: 30px;
 }
 
+/* Search Bar Styling */
+
 #search input {
+	height: 20px;
 	border-radius: 3px;
 	font-size: 15px;
 	color: rgba(0, 0, 0, 0.73);
@@ -52,13 +52,13 @@ body {
 }
 
 #search #button {
-	background-color: #f2f2f2;
+	background-color: white;
 	border: #f2f2f2 1px solid;
 }
 
 #search #button:hover {
 	color: black;
-	border: 2px black;
+	border: black;
 }
 
 /* Shortcut Launcher Styling */
@@ -97,6 +97,6 @@ body {
 	height: 25px;
 	border-radius: 3px;
 	padding-bottom: 20px;
-}
+	}
 }
 
